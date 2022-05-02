@@ -67,7 +67,7 @@ async function main(): Promise<number> {
 
     const placesOfInterest_SanDiego: Array<string> = [
         "art gallery", "art museums", "beaches", "date night", "thrift stores", "museums", "casino", "bakeries",
-        "cafes", "fine dining", "night club", "aquarium", "amusement parks", "shopping malls", "brunch", "wineries"
+        "cafes", "fine dining", "night club", "aquarium", "amusement parks", "shopping malls", "brunch", "wineries", "bars"
     ];
 
     await processPlacesOfInterest(placesOfInterest_NorthCountySD, "north county san diego, ca");
